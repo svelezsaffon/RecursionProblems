@@ -1,8 +1,15 @@
 #include <iostream>
+#include <array>
+#include "recursion.h"
 
 using namespace std;
 
 int main() {
-    cout << "Hello, World!" << endl;
+
+   char word[]="santiago";
+
+    printf("%c\n",getCharKey(4,2));
+
+
     return 0;
 }
